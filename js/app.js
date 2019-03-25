@@ -75,6 +75,16 @@ let students2 = [
 
 
 
+//2. Take it easy
 
+let rainbow = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+console.log(rainbow[4]);
+let CollinBrockway = {
+	food: "MEAT",
+	hobby: "Analog photography",
+	town: "Boulder",
+	datatype: "unsigned 16-bit integer"
+}
+console.log(CollinBrockway.hobby);
 
 
