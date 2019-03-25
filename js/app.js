@@ -203,3 +203,14 @@ for (let i = 0; i < bondFilms.length; i++)
 	}
 }
 console.log(oddBonds);
+
+
+let totalgross = 0;
+let tempstr = "";
+for (let i = 0; i < bondFilms.length; i++)
+{
+	tempstr = bondFilms[i].gross.replace("$", "");
+	tempstr = tempstr.replace(/,/g, "");
+	totalgross = totalgross + parseInt(tempstr);
+}
+console.log(totalgross);
