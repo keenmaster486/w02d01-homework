@@ -191,3 +191,15 @@ for (let i = 0; i < bondFilms.length; i++)
 	bondTitles[i] = bondFilms[i].title;
 }
 console.log(bondTitles);
+
+const oddBonds = [];
+let j = 0;
+for (let i = 0; i < bondFilms.length; i++)
+{
+	if (!!(bondFilms[i].year % 2))
+	{
+		oddBonds[j] = bondFilms[i].title;
+		j++;
+	}
+}
+console.log(oddBonds);
